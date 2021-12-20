@@ -1,0 +1,157 @@
+/* body{
+    background: #f0f0f0;
+    background-size: cover;
+    background-position-y:-50px ;
+    font-size: 14px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+body{
+
+}
+
+/* header */
+.navbar{
+    margin-top: -5px;
+    padding-top: -5px;
+    position: relative;
+    height: 58px;
+}
+.navbar .sub-menu ul{
+    padding-left: 0rem;
+}
+.navbar .sub-menu ul li>a{
+    color: #fff !important;
+    display: block ;
+    padding: 5px 10px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-size: 14px;
+}
+
+.sub-menu ul li:hover{
+    background-color: #fff;
+}
+.sub-menu ul li:hover a{
+    color:black !important;
+}
+
+.nav-item .sub-head {
+    display: none; 
+    position: absolute;
+    background: white;
+    margin-top: -1px;
+    width: 150px;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-item .sub-head li{
+/* display: none; */
+}
+
+.sub-head li{
+    color: black;
+    list-style: none;
+    margin-top: 8px;
+}
+
+.sub-menu>ul>li:hover ul.sub-head{
+    display: block;
+}
+
+ul.sub-head li a{
+    text-decoration: none;
+    color: #212529;
+    /* border-bottom: 1px solid wheat; */
+    font-size: 14px;
+    margin-left: -10px;
+}
+
+ul.sub-head li a:hover{
+    color: #e10c00 !important;
+}
+  
+
+#wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form-login{
+    max-width: 400px;
+    background: white;
+    opacity: 0.8;
+    flex-grow: 1;
+    padding: 30px 30px 40px;
+    box-shadow:0px 0px 17px 2px rgba(32, 29, 29, 0.8);
+}
+.form-heading{
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: black;
+    flex-grow: 1;
+}
+.form-group{
+    border-bottom: 1px solid gray;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-group input{
+    width: 400px;
+}
+.form-input::placeholder{
+    color:gray ;
+}
+.form-submit{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 1px solid red;
+}
+
+.login-btn{
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-btn a{
+    text-decoration: none;
+    color: #212529;
+
+}
+
+.login-btn a:hover{
+    color: #ff0000;
+}

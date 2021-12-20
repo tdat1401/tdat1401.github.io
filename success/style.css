@@ -1,0 +1,16 @@
+body{
+    background:#fff;
+    overflow:hidden;
+    margin:0;
+}
+canvas{
+    background-color: red;
+}
+
+.text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}

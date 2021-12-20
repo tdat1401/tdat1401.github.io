@@ -1,0 +1,28 @@
+@media (min-width: 1024px) { 
+    .container .rating-star{
+        width: 200%;
+    }
+    .container .rating-text{
+        width: 160%;
+    }
+}
+
+@media (min-width:740px) and (max-width: 1023px) {
+
+}
+@media (max-width: 740px) {
+
+    .container-content{
+        width: 100%;
+        margin-left: 0;
+    }
+    .container .center{
+        /* min-width: 50%; */
+        padding-top: 100px;
+
+    }
+
+    .footer .grid{
+        /* padding-right: 152px !important; */
+    }
+}
